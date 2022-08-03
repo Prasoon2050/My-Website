@@ -1,0 +1,217 @@
+html, body {
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 0px;
+  height: 100%;
+  line-height: 2.4;
+}
+
+h1{
+  font-weight: bold;
+}
+
+h2,h3{
+  font-family: "Montserrat-Bold";
+}
+h5{
+  font-weight: bold;
+}
+h6{
+  font-weight: bold;
+}
+
+hr{
+  margin-top: 5%;
+  margin-bottom:5%;
+  width: 20%;
+  height: 2px;
+}
+a {
+  text-decoration: none;
+  color: #0F0E0E;
+}
+/* nav-bar */
+
+.navbar{
+  margin-bottom: 0;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+}
+.nav-item{
+  color: black;
+  font-family: "Montserrat-Black";
+  font-size: 1.2rem;
+}
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* grid */
+
+
+.grid-child{
+  background-color: #66BFBF;
+  padding:14%;
+}
+.grid-child-second{
+  background-color: white;
+  text-align: left;
+  padding:15% 20% 10% 8%;
+  margin-bottom: 1%;
+}
+
+.personal-img{
+  width: 50%;
+  border-radius: 100%;
+  margin: 10%;
+}
+.card-bio{
+  z-index: 1;
+  position: absolute;
+  left: 60%;
+  width: 50%;
+  background-color: #EAF6F6;
+  box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+  height: fit-content;
+
+}
+
+
+
+/* middle section */
+
+
+.social{
+  background-color: #FFFFFF;
+  margin-top: 10%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+#resume-section {
+  background-color: #66BFBF;
+  padding: 10%
+}
+#resume-1 {
+  text-align: center;
+}
+#contact{
+  padding-bottom: 2%;
+  padding-right: 5%;
+}
+
+.resume-heading{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 72px;
+  margin: 3%;
+}
+
+.resume-sub-heading{
+  margin: 5%;
+  text-decoration: underline;
+  font-size: 35px;
+}
+
+.form-control{
+  margin: 2%;
+}
+
+.proj{
+  margin-top: 5%;
+  margin-left: 13%;
+  width: 80%;
+}
+
+.edu{
+  margin-top: 5%;
+  margin-left: 25%;
+  width: 50%;
+}
+
+.list-group{
+  margin-left: 30%;
+  width: 40%;
+}
+
+/* contact-content */
+
+#contact-content{
+  background-color: #66BFBF;
+  padding: 2%
+}
+.contactLink{
+  color: white;
+}
+.contactLink:hover{
+  color: white;
+}
+
+.C-content{
+  background-color: #66BFBF;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .card-bio{
+      width: 60%;
+      margin:auto;
+      padding: 0;
+      position: static;
+
+    }
+    .grid-child{
+      padding-top: 30%;
+      padding-bottom: 10%
+    }
+    .navbar{
+      padding: 1%;
+      margin-bottom: 0;
+      width: 100%;
+      z-index: 10;
+      position: fixed;
+    }
+}
+
+
+.contact-middle{
+background-color: #66BFBF;
+}
+.contact-bottom{
+background-color: #EAF6F6;
+}
+#edit1{
+  margin-bottom: 0;
+  padding-bottom: 1.2rem;
+}
+#edit2{
+  margin: 0;
+}
+#edit3{
+  margin-top: 0;
+}
+
+#contact-content{
+  padding-top: 10%;
+}
+.fab{
+  margin: 1%;
+}
+
+.my{
+  margin: 3%;
+}
+
+.card-img-top{
+  background: #0F3D3E;
+        padding: 12px;
+        border: 1px solid #999;
+}
